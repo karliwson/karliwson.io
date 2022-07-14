@@ -22,10 +22,13 @@ export default function Home({ posts }) {
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Latest
+            Hi, I'm Kaká Oliveira
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description}
+            {/* {siteMetadata.description} */}
+            Welcome to my blog: <span className="font-medium">The Modern Architect</span>. Here we
+            talk about Software Architecture, Cloud, DevOps, Blockchain development and technology
+            in general.
           </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">

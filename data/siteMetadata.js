@@ -1,21 +1,24 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: 'The Modern Architect',
+  headerTitle: 'The Modern Architect',
+  author: 'Kaká Oliveira',
+  description:
+    'Welcome to my blog: The Modern Architect. Here we talk about Software Architecture, Cloud, DevOps, Blockchain development and technology in general.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://karliwson.io/',
+  siteRepo: 'https://github.com/karliwson',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  email: 'me@karliwson.io',
+  github: 'https://github.com/karliwson',
+  twitter: 'https://twitter.com/karliwson',
+  facebook: '',
+  youtube: 'https://www.youtube.com/c/TheModernArchitect',
+  linkedin: 'https://www.linkedin.com/in/karliwson',
+  stackoverflow: 'https://stackoverflow.com/users/877542/karliwson',
+  instagram: 'https://www.instagram.com/karliwson/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
@@ -30,7 +33,7 @@ const siteMetadata = {
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
     // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
+    provider: '',
   },
   comment: {
     // If you want to use a commenting system other than giscus you have to add it to the
