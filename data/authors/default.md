@@ -1,12 +1,13 @@
 ---
-name: Tails Azimuth
+name: Kaká Oliveira
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
+occupation: Software Architect
+company: TMA®
 email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+twitter: https://twitter.com/karliwson
+linkedin: https://www.linkedin.com/in/karliwson
+github: https://github.com/karliwson
+stackoverflow: https://stackoverflow.com/users/877542/karliwson
 ---
 
 Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
