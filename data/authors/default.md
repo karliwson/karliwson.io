@@ -3,7 +3,7 @@ name: Kaká Oliveira
 avatar: /static/images/avatar.png
 occupation: Solutions Architect
 company: TMA®
-email: address@yoursite.com
+email: me@karliwson.io
 twitter: https://twitter.com/karliwson
 linkedin: https://www.linkedin.com/in/karliwson
 github: https://github.com/karliwson
@@ -16,7 +16,7 @@ I am Karliwson Sousa, professionally known as Kaká Oliveira. Solutions Architec
 
 Over these two decades I've developed valuable skills on a wide range of specialties and tech stacks; skills that range from UI/UX Design to Software Architecture & Engineering, Mobile Development, DevOps, Cloud Architecture, Blockchain Development, among others. Although my main specialty is Node.js, I am a language/tech-stack-agnostic engineer and I love to design and implement cutting-edge, durable solutions, end-to-end, using modern technologies, especially for cloud-based environments; from architecture to CI/CD automation.
 
-I'm always working on interesting side projects and POCs using JS/TS, Golang, Rust or C++, which usually involve Cloud & DevOps. Feel free to take a look at the [Projects](/projects) section.
+I'm always working on interesting side projects and POCs using JS/TS, Golang, Rust or C++, as well as Cloud & DevOps projects. Feel free to take a look at the [Projects](/projects) section.
 
 ## Resume
 
