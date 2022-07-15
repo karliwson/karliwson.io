@@ -24,8 +24,16 @@ input:-webkit-autofill:focus {
   transition: background-color 600000s 0s, color 600000s 0s;
 }
 
-html.dark body {
+.dark body {
   background-color: rgb(34 39 46) !important;
+}
+
+.dark .dark\:bg-gray-800 {
+  background-color: rgb(46 53 62) !important;
+}
+
+.dark .dark\:border-gray-900 {
+  border-color: rgb(80 90 100) !important;
 }
 
 * {
