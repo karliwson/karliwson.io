@@ -6,12 +6,17 @@ import siteMetadata from '@/data/siteMetadata'
 const Giscus = () => {
   const [enableLoadComments, setEnabledLoadComments] = useState(true)
   const { theme, resolvedTheme } = useTheme()
+  // const commentsTheme =
+  //   siteMetadata.comment.giscusConfig.themeURL === ''
+  //     ? theme === 'dark' || resolvedTheme === 'dark'
+  //       ? siteMetadata.comment.giscusConfig.darkTheme
+  //       : siteMetadata.comment.giscusConfig.theme
+  //     : siteMetadata.comment.giscusConfig.themeURL
+  const base = location.protocol + '//' + location.host
   const commentsTheme =
-    siteMetadata.comment.giscusConfig.themeURL === ''
-      ? theme === 'dark' || resolvedTheme === 'dark'
-        ? siteMetadata.comment.giscusConfig.darkTheme
-        : siteMetadata.comment.giscusConfig.theme
-      : siteMetadata.comment.giscusConfig.themeURL
+    theme === 'dark' || resolvedTheme === 'dark'
+      ? `${base}/static/css/giscus-transparent_dark.css`
+      : `${base}/static/css/giscus-light.css`
 
   const COMMENTS_ID = 'comments-container'
 
