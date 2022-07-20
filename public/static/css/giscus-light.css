@@ -81,6 +81,9 @@ main {
   --color-social-reaction-bg-hover: var(--color-scale-gray-1);
   --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-1);
   color-scheme: light;
+
+  /* Width clipping fix */
+  width: calc(100% - 1px) !important;
 }
 main .pagination-loader-container {
   background-image: url(https://github.com/images/modules/pulls/progressive-disclosure-line.svg);
