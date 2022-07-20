@@ -1,0 +1,8 @@
+{
+  "originsRegex": [
+    "https://karliwson\\.(com|me|io)",
+    "https://karliwson-([A-z0-9]|-)*karliwson\\.vercel\\.app",
+    "http://localhost:[0-9]+"
+  ],
+  "defaultCommentOrder": "newest"
+}
