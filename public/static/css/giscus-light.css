@@ -94,3 +94,7 @@ main .gsc-loading-image {
 main em.color-text-secondary {
   display: none;
 }
+.gsc-comments-count a,
+.gsc-reactions-count a {
+  pointer-events: none;
+}
